@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "AutomationProject">
+<parameter name = "email" value = "sonalvikhe1@gmail.com"/>
+<parameter name = "pass" value = "Chatterbox@16"/>
+<test name = "testLogin">
+<classes>
+	<class name = "AutomationProject.automation_project.TestLogin"/>
+</classes>
+</test>
+
+</suite>
+
+
